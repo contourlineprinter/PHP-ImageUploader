@@ -3,10 +3,14 @@
 	<head>
 		<title>Invisible I</title>
 		<meta charset="utf-8">
-		<link href="style.css" rel="stylesheet">
+		
+		<!--	CSS	-->
+		<link href="css/style.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,500" rel="stylesheet">
+		
+		<!--	Favicon	-->
 		<link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	</head>	
 	<body>
 		<!-- Upload -->
@@ -14,7 +18,6 @@
 			<div class="top">
 				<h5 class="preview" id="filename">No file</h5>
 			</div>
-			
 			
 			<form action="http://cis-linux2.temple.edu/~tuf92968/lab4/php/uploadFile.php" id="form" method="post" enctype="multipart/form-data" target="iframe">
 
@@ -30,7 +33,7 @@
 				<!-- <input type="submit" value="Submit"> -->
 			</form>
 			<div class="des">
-				<p>Invisible eye is a tool that displays <a href="https://en.wikipedia.org/wiki/Exif">EXIF</a> metadata associated with jpeg images.</p>
+				<p> Upload an image to generate a contour line drawling using <a href="https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_canny/py_canny.html">OpenCV</a></p>
 			</div>
 		
 			
@@ -39,7 +42,9 @@
 			</div>
 		</div>
 		<!-- scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 		<script src="js/main.js"></script>
+
 		
 	</body>
 </html>
